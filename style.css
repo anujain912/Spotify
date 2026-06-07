@@ -1,12 +1,13 @@
 *{
     font-family: "Montserrat", sans-serif;
     margin:0;
-   
-    overflow: hidden;
+   color:white;
+    overflow: hidden;/*when there is multiple content in a page and we require scroll bar the  we use overflow property*/
 }
 .main{
     display: flex;
     height:100vh;
+    padding: 0.5rem; /*to give breathing space around the box*/
 }
 .sidebar{
     background-color: red;
@@ -16,7 +17,7 @@
 }
 .main-content{
    background-color: blue;
-   flex:1;
+   flex:1; /*whenever we want that the restover screen size is taken up by this part then use this*/
    border-radius: 1rem; /* 16px */
    overflow:auto;
    background-color: #121212;
@@ -47,7 +48,7 @@ a,i{
 }
  .navbar-options
  {
-    line-height: 2.5rem;
+    line-height: 2.5rem;/* after giving display flex we want items to align properly and wanted to set height of 1 particular line */
     opacity: 0.7;
     padding : 0.5rem 0.75rem;
  }
@@ -63,4 +64,107 @@ a,i{
  .navbar-options a{
     font-size: 1rem;
     margin-left: 1rem;
+ }
+
+ .library{
+    background-color: #121212;
+    border-radius:1.25rem;
+    height:100vh;
+    margin-top: 0.5rem;
+    padding : 0.5rem 0.75rem;
+   
+
+ }
+ .library-content{
+    height:130px;
+    overflow: auto;
+ }
+ .library-content::-webkit-scrollbar {
+  width: 0px;   /* no scrollbar */
+  background: transparent;
+}
+ .library-content:hover::-webkit-scrollbar {
+  width: 8px;              /* slim scrollbar */
+}
+
+.library-content:hover::-webkit-scrollbar-track {
+  background: #f1f1f1;      /* light background */
+}
+
+.library-content:hover::-webkit-scrollbar-thumb {
+  background: #888;         /* grey thumb */
+}
+ .library-options img{
+   height:1.25rem;
+   width:1.25rem;
+ }
+
+.library-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.icons i{
+    font-size: 1.25rem;
+    margin-left:0.5rem;
+    opacity: 0.7;
+}
+
+.icons i:hover{
+  
+    opacity: 1;
+}
+.box-1{
+    padding: 16px 20px;
+    margin: 8px 0px ;
+    background-color: #1F1F1F;
+    /* line-height: 1.75rem; */
+    height:100px;
+    border-radius: 1.5rem;
+}
+.box-1 .box-p1
+{
+    font-weight:500;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.box-1 .box-p2
+{
+    
+    font-size: 0.75rem;
+    margin-bottom: 10px;
+}
+
+.box-1 .badge{
+    color:black;
+    font-weight: 600;
+    background-color: white;
+    font-size: 13px;
+    padding: 4px 16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 100px;
+    border:none;
+    margin-top: 10px;
+
+}
+.ht{
+    height:auto;
+}
+ .p1,.p2,.p3{
+    
+    font-size: 11px;
+    line-height: 1.5rem;
+
+ }
+ .extra-info{
+    padding: 0 24px 0 24px;
+    margin: 32px 0;
+ }
+ .extra-info span{
+    margin-right:0.35rem;
+    color:#B3B3B3;
  }
