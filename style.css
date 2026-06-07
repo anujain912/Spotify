@@ -2,12 +2,16 @@
     font-family: "Montserrat", sans-serif;
     margin:0;
    color:white;
-    overflow: hidden;/*when there is multiple content in a page and we require scroll bar the  we use overflow property*/
+    overflow: hidden;
+   /*when there is multiple content in a page and we require scroll bar the  we use overflow property*/
 }
+
+
 .main{
     display: flex;
     height:100vh;
-    padding: 0.5rem; /*to give breathing space around the box*/
+    
+   
 }
 .sidebar{
     background-color: red;
@@ -16,10 +20,11 @@
     background-color: black;
 }
 .main-content{
+     overflow:auto;
    background-color: blue;
    flex:1; /*whenever we want that the restover screen size is taken up by this part then use this*/
    border-radius: 1rem; /* 16px */
-   overflow:auto;
+   
    background-color: #121212;
 }
 .music-player{
@@ -45,6 +50,10 @@ a,i{
    height:100px;
    padding: 16px 20px;
 
+}
+.sticky-navbar{
+    height:3rem;
+    padding-bottom:10px;
 }
  .navbar-options
  {
@@ -136,7 +145,7 @@ a,i{
     margin-bottom: 10px;
 }
 
-.box-1 .badge{
+ .badge{
     color:black;
     font-weight: 600;
     background-color: white;
@@ -168,3 +177,96 @@ a,i{
     margin-right:0.35rem;
     color:#B3B3B3;
  }
+.sticky-navbar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: #121212;
+    top:0px;
+  
+}
+
+  .sticky-navbar img{
+    justify-content: flex-start;
+    height:1.5rem;
+    width:1.5rem;
+    margin-left:10px;
+} 
+
+.sticky-navbar-2 {
+    display: flex;
+    margin-right:20px;
+   
+    
+} 
+
+.sticky-navbar-2 i{
+    /* color:black; */
+    margin-left:10px;
+   color:white;
+}  
+.sticky-navbar-2 .badge{
+    margin-left: 15px;
+}
+.sticky-navbar-2 > i{
+    margin-top:15px;
+}
+
+@media(max-width:1000px)
+{
+    .hide{
+        display: none;
+    }
+}
+.card-container{
+    display: flex;
+    padding-left:1.5rem;
+    margin-top:1.5rem;
+    flex-wrap: wrap;
+    
+}
+.card{
+    background-color: #232323;
+    width:177px;
+    border-radius:0.5rem;
+    padding:1rem;
+    margin-right:10px;
+    margin-bottom:15px;
+  
+}
+
+.card img{
+    width:100%;
+     border-radius:0.5rem;
+}
+
+.card-title{
+    font-weight: 600;
+    margin-bottom:10px;
+   
+}
+
+.card-info{
+    color:#B3B3B3;
+    font-size:12px;
+}
+
+.albums h2{
+     padding-left:1.5rem;
+} 
+.footer{
+    height:300px;
+     display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.line{
+  
+    height:30%;
+    width:95%;
+    border-top:2px solid white;
+    opacity:0.7;
+  
+
+}
