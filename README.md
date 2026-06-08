@@ -5,9 +5,11 @@ Trying to build a basic Frontend website with the help of HTML and CSS to learn 
 This project is the step by step implementation of music streaming UI. By building this project i am gaining hands on experience on how real world designs are implemented by adding core structure through HTML and styling through CSS.
 
 ## Tech Stack
-HTML 5 - Structuring the project
-CSS - Styling the project
-Font-awesome,google fonts - for adding the styling components
+**HTML 5** - Structuring the project
+
+**CSS** - Styling the project
+
+**Font-awesome,google fonts** - for adding the styling components
 
 
 ## Features implemented
@@ -25,7 +27,7 @@ Font-awesome,google fonts - for adding the styling components
 
  ## Learning
   Managing the UI components properly how it is divided into chunks and then build.
-  
+
   Structuring code modulary by building and commiting one section.
 
  
