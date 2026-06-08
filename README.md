@@ -30,6 +30,7 @@ This project is the step by step implementation of music streaming UI. By buildi
 
   Structuring code modulary by building and commiting one section.
 
+ ## Screenshot
  ![Spotify Clone Screenshot](./screenshots/Screenshot%202026-06-08%20113034.png)
  
  ## This project is the part of my web developing journey
