@@ -12,8 +12,11 @@ Font-awesome,google fonts - for adding the styling components
 
 ## Features implemented
  **Sidebar Navigation**: Home, Search, and Library sections.
+
  **Sticky Navigation Bar**: Top navigation with user profile and upgrade buttons.
+
  **Main Content Area**: Product cards for "Recently Played" and "Spotify Original Podcasts".
+
  **Music Player**: Bottom player control bar featuring song details, playback progress sliders, and volume adjustments.
 
  ## Difficulties Faced
@@ -22,6 +25,7 @@ Font-awesome,google fonts - for adding the styling components
 
  ## Learning
   Managing the UI components properly how it is divided into chunks and then build.
+  
   Structuring code modulary by building and commiting one section.
 
  
