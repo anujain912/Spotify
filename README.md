@@ -23,6 +23,7 @@ This project is the step by step implementation of music streaming UI. By buildi
 
  ## Difficulties Faced
   **Overflow property**: Not able to  scroll the entire content on the main section then implemenetd overflow property.
+  
   **Responsiveness**: Intially facing issue to implement flex properties and use relative units for styling to make website responsive in nature.
 
  ## Learning
